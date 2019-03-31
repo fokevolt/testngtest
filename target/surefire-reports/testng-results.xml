@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="16744" started-at="2019-03-31T20:47:09Z" finished-at="2019-03-31T20:47:25Z">
+    <groups>
+    </groups>
+    <test name="SimpleExample" duration-ms="16744" started-at="2019-03-31T20:47:09Z" finished-at="2019-03-31T20:47:25Z">
+      <class name="tests.GoogleSearchTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:tests.GoogleSearchTest@3f2a3a5]" name="setupDriver" is-config="true" duration-ms="4174" started-at="2019-03-31T20:47:09Z" finished-at="2019-03-31T20:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="goToBaseUrl()[pri:0, instance:tests.GoogleSearchTest@3f2a3a5]" name="goToBaseUrl" is-config="true" duration-ms="780" started-at="2019-03-31T20:47:13Z" finished-at="2019-03-31T20:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBaseUrl -->
+        <test-method status="PASS" signature="assureThatIfWeClickImLuckyButtonWeWillGoDirectlyToSite()[pri:0, instance:tests.GoogleSearchTest@3f2a3a5]" name="assureThatIfWeClickImLuckyButtonWeWillGoDirectlyToSite" duration-ms="1596" started-at="2019-03-31T20:47:14Z" finished-at="2019-03-31T20:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assureThatIfWeClickImLuckyButtonWeWillGoDirectlyToSite -->
+        <test-method status="PASS" signature="goToBaseUrl()[pri:0, instance:tests.GoogleSearchTest@3f2a3a5]" name="goToBaseUrl" is-config="true" duration-ms="559" started-at="2019-03-31T20:47:15Z" finished-at="2019-03-31T20:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBaseUrl -->
+        <test-method status="PASS" signature="assureThatIfWeGetBackToSearchPageThenSearchFieldIsEmpty()[pri:0, instance:tests.GoogleSearchTest@3f2a3a5]" name="assureThatIfWeGetBackToSearchPageThenSearchFieldIsEmpty" duration-ms="2493" started-at="2019-03-31T20:47:16Z" finished-at="2019-03-31T20:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assureThatIfWeGetBackToSearchPageThenSearchFieldIsEmpty -->
+        <test-method status="PASS" signature="goToBaseUrl()[pri:0, instance:tests.GoogleSearchTest@3f2a3a5]" name="goToBaseUrl" is-config="true" duration-ms="253" started-at="2019-03-31T20:47:18Z" finished-at="2019-03-31T20:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBaseUrl -->
+        <test-method status="PASS" signature="assureThatItIsPossibleToSearchAndViewResultsInGoogle()[pri:0, instance:tests.GoogleSearchTest@3f2a3a5]" name="assureThatItIsPossibleToSearchAndViewResultsInGoogle" duration-ms="4778" started-at="2019-03-31T20:47:19Z" finished-at="2019-03-31T20:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assureThatItIsPossibleToSearchAndViewResultsInGoogle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.GoogleSearchTest@3f2a3a5]" name="tearDown" is-config="true" duration-ms="2089" started-at="2019-03-31T20:47:23Z" finished-at="2019-03-31T20:47:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.GoogleSearchTest -->
+    </test> <!-- SimpleExample -->
+  </suite> <!-- Suite1 -->
+</testng-results>
