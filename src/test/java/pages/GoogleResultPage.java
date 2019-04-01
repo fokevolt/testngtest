@@ -58,7 +58,7 @@ public class GoogleResultPage extends BasePageObject {
         }
 
         public String getUrlFromDescription() {
-            return descriptionUrl.replace("...", "");
+            return descriptionUrl.split("\\.\\.\\.")[0];
         }
 
         public String getTextFromDescription() {

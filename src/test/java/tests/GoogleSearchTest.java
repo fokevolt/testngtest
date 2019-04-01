@@ -40,7 +40,7 @@ public class GoogleSearchTest {
     public void assureThatItIsPossibleToSearchAndViewResultsInGoogle() {
         //Test data
         String textToSearch = "selenium + testng";
-        int resultToOpen = 8;
+        int resultToOpen = 5;
 
         SearchResult result = searchPage.searchFor(textToSearch).getSearchResultByNumber(resultToOpen);
         result.click();
@@ -59,6 +59,7 @@ public class GoogleSearchTest {
         resultsPage = searchPage.searchFor("Global Logic");
         searchPage = resultsPage.goToSearchPage();
         Assert.assertTrue(searchPage.getUrl().contains(GoogleSearchPage.BASE_URL));
+        Assert.assertTrue(searchPage.searchFieldIsEmpty());
     }
 
     @AfterClass
